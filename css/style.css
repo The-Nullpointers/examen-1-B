@@ -75,7 +75,7 @@ background: linear-gradient(0deg, rgba(0,131,72,1) 0%, rgba(249,249,249,1) 66%);
 .trebol-img{
     z-index: -1;
     position: fixed;
-    opacity: 0.75;
+    opacity: 0.2;
     margin-top: 5%;
     
   }
@@ -148,4 +148,12 @@ div.card-jugador-dt{
 .nav-item a:hover  {
     color: #008348;   
 }
-
+.pie-de-pagina{
+    margin-top: 35px;
+}
+.facebook{
+    margin-right: 15px;
+}
+.instagram{
+    margin-left: 15px;
+}
