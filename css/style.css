@@ -76,5 +76,10 @@ div.card-jugador-dt{
     display: flex;
     justify-content: center;
     align-content: center;
-
 }
+.nav-item a:hover  {
+    color: #008348;
+  }
+ 
+  
+  
