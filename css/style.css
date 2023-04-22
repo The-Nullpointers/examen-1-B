@@ -1,0 +1,102 @@
+
+
+.informacion {
+
+    background-color: rgba(0, 95, 32, 0.695);
+    height: 7rem;
+    margin: 0rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-right: 10rem;
+}
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 95, 32, 0.695);
+    padding: 160px;
+    color: #fff;
+    margin-left: 0px;
+    margin-bottom: -100px;
+    height: 100%;
+}
+
+.info-contacto h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.redes-sociales img {
+    width: 30%;
+    max-width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .contacto {
+        flex-direction: column;
+        margin-right: 0;
+    }
+
+    .info-contacto {
+        padding: 60px;
+        margin-bottom: -60px;
+    }
+
+    .redes-sociales img {
+        width: 10%;
+        max-width: 30px;
+    }
+}
+
+header {
+    background-color: #232020;
+    padding: 25px;
+}
+
+h1,
+h5 {
+    color: #fff;
+    margin: 0;
+}
+
+.logo {
+
+    height: 5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 1rem;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: rgb(33, 168, 60);
+}
+
+a {
+    font-size: 20px;
+
+}
