@@ -1,0 +1,80 @@
+body{
+    background: rgb(0,131,72);
+background: linear-gradient(0deg, rgba(0,131,72,1) 0%, rgba(249,249,249,1) 66%);
+}
+.trebol{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    
+}
+.trebol-img{
+    z-index: -1;
+    position: fixed;
+    opacity: 0.75;
+    margin-top: 5%;
+    
+  }
+.titulo-jugadores{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+   
+}
+.first-title{
+    color: #008348;
+    font-weight: 300;
+    margin-right: 80px;
+}
+div.card-jugador{
+    border: double 9px #008348;
+    box-shadow: -17px 17px 30px 4px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -17px 17px 30px 4px rgba(0,0,0,0.51);
+    -moz-box-shadow: -17px 17px 30px 4px rgba(0,0,0,0.51);
+    padding-bottom: 20px;
+}
+div.card-jugador-dt{
+    border: double 9px #008348;
+    box-shadow: -17px 17px 30px 4px rgba(0,0,0,0.51);
+    -webkit-box-shadow: -17px 17px 30px 4px rgba(0,0,0,0.51);
+    -moz-box-shadow: -17px 17px 30px 4px rgba(0,0,0,0.51);
+    padding-bottom: 36px;
+}
+.cara-jugador{
+    border-bottom:solid  #008348 3px;
+}
+.position{
+    text-align: start;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+    font-weight: 400;
+}
+.born{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+    font-weight: 400;
+}
+.height{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+    font-weight: 400;
+
+}
+.segunda-linea{
+    margin-top: 50px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
