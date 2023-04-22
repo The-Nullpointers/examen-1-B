@@ -157,3 +157,38 @@ div.card-jugador-dt{
 .instagram{
     margin-left: 15px;
 }
+
+.greetingsection{
+    
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    background-color: rgba(204, 204, 204, 0.25);
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.greetingtext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    text-align: center;
+}
+
+.animated-section {
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
