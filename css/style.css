@@ -1,10 +1,11 @@
 
-
 .informacion {
 
-    background-color: rgba(0, 95, 32, 0.695);
-    height: 7rem;
+    background-color: white;
+    height: auto;
     margin: 0rem;
+    
+
 }
 
 footer {
@@ -23,9 +24,9 @@ footer {
 .info-contacto {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 95, 32, 0.695);
+    background-color: white;
     padding: 160px;
-    color: #fff;
+    color: #161313;
     margin-left: 0px;
     margin-bottom: -100px;
     height: 100%;
@@ -41,6 +42,11 @@ footer {
     width: 30%;
     max-width: 30px;
 }
+
+.redes-sociales img:hover {
+    transform: scale(2.1) translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  }
 
 @media screen and (max-width: 768px) {
     .contacto {
@@ -60,13 +66,13 @@ footer {
 }
 
 header {
-    background-color: #232020;
+    background-color: white;
     padding: 25px;
 }
 
 h1,
 h5 {
-    color: #fff;
+    color: #161313;
     margin: 0;
 }
 
@@ -88,7 +94,7 @@ nav li {
 }
 
 nav li a {
-    color: #fff;
+    color: #161313;
     text-decoration: none;
 }
 
