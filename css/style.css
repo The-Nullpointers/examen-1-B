@@ -169,6 +169,12 @@ div.card-jugador-dt{
     box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 
+.imagesection{
+    padding: 20px;
+    height: auto;
+    width: 600px;
+}
+
 .greetingtext{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size:xx-large;
@@ -192,3 +198,22 @@ div.card-jugador-dt{
         transform: translateY(0%);
     }
 }
+
+.table-image {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.front-image{
+    width: 85%;
+    height: 85%;
+    
+    border: 5px solid rgba(100, 200, 100, 0);
+    border-radius: 15%;
+}
+
+.front-image:hover {
+    border: 5px solid rgba(100, 200, 100, 0.5);
+    border-radius: 15%;
+  }
