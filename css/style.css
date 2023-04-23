@@ -64,8 +64,9 @@ a {
 
 body{
     background: rgb(0,131,72);
-background: linear-gradient(0deg, rgba(0,131,72,1) 0%, rgba(249,249,249,1) 66%);
+    background: linear-gradient(0deg, rgba(0,131,72,1) 0%, rgba(249,249,249,1) 66%);
 }
+
 .trebol{
     display: flex;
     justify-content: center;
@@ -153,7 +154,56 @@ div.card-jugador-dt{
 }
 .facebook{
     margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
 }
 .instagram{
+    margin-right: 15px;
     margin-left: 15px;
+    text-decoration: none;
+}
+.twitter{
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.mapa{
+    margin-top: 50px;
+}
+
+.info-td-garden{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px solid #008348;
+    border-radius: 10px;
+    background-color: #a7e6ca;
+    margin-bottom: 50px;
+}
+
+.info-td-garden span{
+    font-weight: bold;
+}
+
+.carrusel-sm img{
+    max-height: 800px;
+}
+
+.carousel-inner {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.links-redes{
+    text-decoration: none;
+}
+
+.copyright{
+    background-color: white;
+    margin-top: 25px;
+    height: 20px;
+}
+
+.texto-copyright{
+    color: #008348;
 }
